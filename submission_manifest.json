@@ -1,0 +1,21 @@
+{
+  "manifest_version": "submission_manifest.v1",
+  "repo_layout_rules": {
+    "manifest_path": "submission_manifest.json",
+    "readme_path": "README.md",
+    "artifacts_dir": "artifacts",
+    "artifact_extension": ".zip"
+  },
+  "artifacts": [
+    {
+      "family_id": "cf_interceptor_office",
+      "interface_version": "submission_zip.v1",
+      "artifact_path": "artifacts/cf_interceptor_office/submission.zip",
+      "sha256": "89fbcaf5f1428cd049f2cab624701648cda37d0a2d75c6ade7dfccf0b30c0a33",
+      "size_bytes": 9840904,
+      "metadata": {
+        "packaged_with": "sn124-miner"
+      }
+    }
+  ]
+}
